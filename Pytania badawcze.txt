@@ -1,0 +1,4 @@
+Pytania badawcze:
+(1) Przy tym samym m^2, cena w zależności od miasta
+(2) czy ma balkon w zależności od miasta
+(3) Dystans od centrum/cena
