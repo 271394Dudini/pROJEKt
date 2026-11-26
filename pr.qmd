@@ -1,0 +1,29 @@
+---
+title: "To jest Projekt"
+format: typst
+editor: visual
+---
+
+1.1 Cel analizy
+
+1.2 skąd pochodzą dane
+
+1.3 opis zmiennych: tabela(co najmniej 1)
+
+1.4 pytania badawcze
+
+2.1 Wczytanie danych
+
+3.1 wykresy(co najmniej 3)
+
+3.2 ładnie opisać
+
+4. Podsumowanie
+```{r}
+#| echo: false
+dane <- read.csv("nieruchomosci.csv", header = TRUE, sep = ",")
+
+library(ggplot2)
+
+ggplot(dane, aes(x = squareMeters, y = price))+geom_point(color = "blue")
+```
